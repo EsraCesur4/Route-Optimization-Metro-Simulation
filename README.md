@@ -20,6 +20,21 @@ Breadth-First Search, yani genişlik öncelikli arama algoritması, bir graf yap
 En kısa yolun uzunluğu kenar sayısı bakımından bulunmak istendiğinde kullanılır ve her kenarın ağırlığı eşitse en kısa yolu garanti eder.
 
 ### A* (A Star) Algoritması
-A* algoritması, bir başlangıç noktasından hedefe giden en kısa ve en hızlı yolu bulmak için kullanılan bir arama algoritmasıdır. BFS gibi çalışır, fakat her adımda sadece yakın olanları değil, aynı zamanda hedefe en yaklaştıran yolları da tercih eder.
 
-Bu yüzden A* algoritması hem verimli hem de doğru sonuç verir.
+A* algoritması, bir noktadan başka bir noktaya giderken en kısa ve en mantıklı yolu bulmak için kullanılır. Akıllı bir algoritmadır çünkü sadece komşulara bakmakla kalmaz, aynı zamanda hedefe en çabuk ulaşacak yolu tahmin ederek hareket eder.
+
+Bu yüzden A*, rastgele değil, hedef odaklı arama yapar.
+
+A* algoritması, her düğüm (nokta) için bir puan hesaplar:
+
+f(n) = g(n) + h(n)
+
+Bu formüldeki her terim şunu ifade eder:
+
+g(n): Başlangıçtan şu anki düğüme kadar olan gerçek yol maliyeti (örneğin geçen süre, mesafe, vs.)
+
+h(n): Bu düğümden hedefe olan tahmini maliyet (heuristic = sezgisel)
+
+f(n): Toplam tahmini maliyet. A* her zaman f(n) en küçük olan yolu seçer.
+
+
