@@ -18,3 +18,8 @@ Bu proje, bir metro ağı üzerinde iki istasyon arasındaki en hızlı ve en az
 Breadth-First Search, yani genişlik öncelikli arama algoritması, bir graf yapısında başlangıç düğümünden (node) başlayarak hedef düğüme ulaşana kadar katman katman ilerleyen bir arama algoritmasıdır.
 
 En kısa yolun uzunluğu kenar sayısı bakımından bulunmak istendiğinde kullanılır ve her kenarın ağırlığı eşitse en kısa yolu garanti eder.
+
+### A* (A Star) Algoritması
+A* algoritması, bir başlangıç noktasından hedefe giden en kısa ve en hızlı yolu bulmak için kullanılan bir arama algoritmasıdır. BFS gibi çalışır, fakat her adımda sadece yakın olanları değil, aynı zamanda hedefe en yaklaştıran yolları da tercih eder.
+
+Bu yüzden A* algoritması hem verimli hem de doğru sonuç verir.
