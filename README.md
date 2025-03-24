@@ -172,9 +172,9 @@ f → z: 9
 ---
 
 ### Neden Bu Algoritmalar Seçildi?
-BFS: Basit ve garanti çözüm sunar. Özellikle "aktarma" sayısının optimizasyonunda oldukça verimlidir.  
+BFS: BFS, grafiği seviye seviye (katman katman) tarar. Yani önce bir istasyona direkt bağlı olanları, sonra onların bağlı olduklarını vs. sırayla gezer. Metro hatlarında her hat değişimi (aktarma) genellikle bir kenar ile temsil edilir. BFS, hedef istasyona en az sayıda kenar ile ulaşan yolu bulur. bu sebeple bu görevin tamamlanmasında BFS uygun bir algoritmadır.
 
-A*: Süre optimizasyonu için uygundur ve heuristik eklenerek daha hızlı çözümler üretebilir. Gelecekte harita üzerinde fiziksel uzaklıkla çalışan bir heuristic fonksiyonu tanımlanarak performansı artırılabilir.  
+A*: Süre optimizasyonu için uygundur ve heuristik eklenerek daha hızlı çözümler üretebilir.  
 
 ---
 
