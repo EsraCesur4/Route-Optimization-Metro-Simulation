@@ -37,4 +37,9 @@ h(n): Bu düğümden hedefe olan tahmini maliyet (heuristic = sezgisel)
 
 f(n): Toplam tahmini maliyet. A* her zaman f(n) en küçük olan yolu seçer.
 
+Heuristic (h(n)) Fonksiyonu Nedir?
+Bu algoritmanın zekice kısmı burasıdır. h(n), bir düğümden hedefe olan tahmini uzaklığı ifade eder.
 
+Örneğin, bir haritada düğümler ızgara üzerinde ise, h(n) genellikle Manhattan mesafesi ya da Euclidean mesafesi ile hesaplanır.
+
+Bu tahminler, algoritmanın daha doğru tahminlerle daha az düğüm denemesini sağlar.
