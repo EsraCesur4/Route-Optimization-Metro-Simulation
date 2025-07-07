@@ -6,7 +6,7 @@ Bu proje, bir metro ağı üzerinde iki istasyon arasındaki en hızlı ve en az
 
 ---
 
-## 2. Kullanılan Kütüphaneler ve Teknolojiler 📚
+## 2. 📚 Kullanılan Kütüphaneler ve Teknolojiler 
 
 ● heapq  :  Öncelikli kuyruk (priority queue) işlemleri için kullanılır. A* algoritması sırasında en kısa süreli yolun önceliklendirilmesini sağlar.  
 ● collections  :  Genişletilebilir çift yönlü kuyruk yapısıdır. BFS algoritması için performans avantajı sağlayan bir yapı sunar.  
